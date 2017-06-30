@@ -7,3 +7,64 @@ Created:December 2014
 License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+
+.header-top .colored {
+  background-color: #19E245;
+  border-bottom: 1px solid #19E245;
+}
+
+.page-loader-4 .pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 6rem;
+  width: 6rem !important;
+  line-height: 6rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background: #19E245;
+  color: #ffffff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -moz-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -ms-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -o-animation: pace-theme-center-circle-spin linear infinite 2s;
+}
+
+a {
+  color: #19E245
+}
+
+.text-default {
+  color: #19E245;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #19E245;
+  border-color: #19E245;
+}
+
+.collapse-style-2 .panel-heading a {
+  color: #ffffff;
+  background-color: #19E245;
+}
+
+.tp-bannertimer {
+  background-color: rgba(25, 226, 69, 0.8);
+}
+
+.header-top.colored {
+  background-color: #19E245;
+  border-bottom: 1px solid #19E245;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #19E245;
+}
